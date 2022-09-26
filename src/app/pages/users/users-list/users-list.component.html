@@ -1,0 +1,20 @@
+<h1>Users List</h1>
+
+<div class="row">
+    <div class="col">
+        <a href="users-detail" class="btn btn-primary add-button">
+            <i class="fa fa-plus"></i> Add User
+        </a>
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-12 col-md-4" *ngFor="let entUsers of lstUser">
+        <div class="card shadow">
+            <div class="card-body">
+                <h2 class="card-title">{{ entUsers.name }}</h2>
+                <p><span class="fw-bold">Birthdate:</span> {{ entUsers.birthdate | date }}</p>
+                <p><span class="fw-bold">Email:</span> {{ entUsers.email }}</p>
+            </div>
+        </div>
+    </div>
+</div>

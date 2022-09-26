@@ -1,0 +1,89 @@
+<h1>Add Movie</h1>
+
+<div>
+    <div class="card shadow p-3 mb-5 bg-white rounded">
+        <div class="card-body">
+            <form>
+                <div class="row">
+                    <div class="form-group col-md-4 col-sm-12">
+                        <label class="form-label" for="inputName">Name</label>
+                        <input type="text" class="form-control" id="inputName" placeholder="Name">
+                    </div>
+                    <div class="form-group col-md-4 col-sm-12">
+                        <label class="form-label" for="inputType">Type</label>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Select the Type...</option>
+                            <option>Sandbox</option>
+                            <option>Real-time strategy (RTS)</option>
+                            <option>Shooters (FPS and TPS)</option>
+                            <option>Multiplayer online battle arena (MOBA)</option>
+                            <option>Role-playing (RPG, ARPG, and More)</option>
+                            <option>Simulation and sports.</option>
+                            <option>Puzzlers and party games</option>
+                            <option>Action-adventure</option>
+                            <option>Simulation</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-md-4 col-sm-12">
+                        <label class="form-label" for="inputAgeGroup">Age Rating</label>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Select the Age Rating...</option>
+                            <option>G</option>
+                            <option>PG</option>
+                            <option>PG-13</option>
+                            <option>R</option>
+                            <option>NR</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-md-4 col-sm-12">
+                        <label class="form-label" for="inputRealeseDate">Realese Date</label>
+                        <input type="date" class="form-control" id="inputRealeseDate">
+                    </div>
+                    <div class="form-group col-md-4 col-sm-12">
+                        <label class="form-label" for="inputType">Rating</label>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Select the Rating...</option>
+                            <option>0</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-md-4 col-sm-12">
+                        <label class="form-label" for="inputEditor">Editor</label>
+                        <input type="text" class="form-control" id="inputEditor" placeholder="Editor">
+                    </div>
+                    <div class="form-group col-md-4 col-sm-12">
+                        <label class="form-label" for="inputDirector">Director</label>
+                        <input type="text" class="form-control" id="inputDirector" placeholder="Director">
+                    </div>
+                    <div class="form-group col-md-4 col-sm-12">
+                        <label class="form-label" for="inputDistributedBy">Distributed by</label>
+                        <input type="text" class="form-control" id="inputDistributedBy" placeholder="Distributed by">
+                    </div>
+                    <div class="form-group col-md-4 col-sm-12">
+                        <label class="form-label" for="inputExecutiveProducers">Executive producers</label>
+                        <input type="text" class="form-control" id="inputExecutiveProducers"
+                            placeholder="Executive producers">
+                    </div>
+                    <div class="col">
+                        <div class="form-group">
+                            <label class="form-label" for="inputDescription">Description</label>
+                            <textarea class="form-control" id="inputDescription" rows="3"></textarea>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <button type="submit" class="btn btn-primary save-button">Save <i
+                                class="fa fa-check"></i></button>
+                        <a type="submit" class="btn btn-light cancel-button" href="movies-list">Cancel</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

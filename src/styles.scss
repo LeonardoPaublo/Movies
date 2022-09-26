@@ -1,0 +1,48 @@
+.container {
+    .body {
+        margin-top: 20px;
+
+        .card {
+            margin-bottom: 20px;
+            height: 100%;
+
+            .card-body {
+                .card-title {
+                    font-size: 24px;
+                }
+
+                p {
+                    display: -webkit-box;
+                    -webkit-line-clamp: 6;
+                    -webkit-box-orient: vertical;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                }
+            }
+        }
+
+        .list-group-item {
+            border-radius: inherit;
+            border: solid 1px var(--bs-list-group-border-color);
+        }
+
+        .list-group-item:not(.list-group-item:last-child) {
+            margin-bottom: 20px;
+        }
+    }
+}
+
+.row div {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.save-button,
+.cancel-button {
+    margin-left: 10px;
+    float: right;
+}
+
+.add-button {
+    float: right;
+}

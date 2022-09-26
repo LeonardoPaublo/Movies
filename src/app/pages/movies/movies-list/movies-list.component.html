@@ -1,0 +1,20 @@
+<h1>Movies List</h1>
+
+<div class="row">
+    <div class="col">
+        <a href="movies-detail" class="btn btn-primary add-button">
+            <i class="fa fa-plus"></i> Add Movie
+        </a>
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-12 col-md-4" *ngFor="let entMovies of lstMovies">
+        <div class="card shadow">
+            <div class="card-body">
+                <h2 class="card-title">{{ entMovies.name }}</h2>
+                <p class="card-text">{{ entMovies.description }}</p>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+            </div>
+        </div>
+    </div>
+</div>
