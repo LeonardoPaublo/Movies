@@ -1,8 +1,8 @@
-# LRLFLIX 
+# Movies
 
 ## Sobre
 
-LRLFLIX é um APP responsivo que permite que o usuário descubra novos filmes.
+Movies é um APP responsivo que permite que o usuário descubra novos filmes.
 
 ## Executando o projeto
 
