@@ -76,10 +76,10 @@ export class DashboardComponent implements OnInit {
     },
     {
       id: 3,
-      name: 'Richard',
+      name: 'Richard de Souza Leite',
       password: '123456',
-      birthdate: new Date(2003, 3, 28),
-      email: 'leonardopaublo@gmail.com',
+      birthdate: new Date(2000, 3, 22),
+      email: 'rs9010482@gmail.com',
       access: 25
     },
   ];
