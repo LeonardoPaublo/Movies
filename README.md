@@ -37,4 +37,4 @@ TypeScript é uma linguagem de programação de graça e de código aberto desen
 
 **[Lucas Jesus](https://www.linkedin.com/in/lucassjesus/)**    
     
-**[Richard](https://www.linkedin.com/in/leonardo-paublo/)**
+**[Richard de Souza Leite](https://www.linkedin.com/in/richard-leite/)**
