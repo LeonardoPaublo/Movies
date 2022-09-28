@@ -1,4 +1,4 @@
-export enum movieType {
+export enum MovieType {
     Action = 1,
     Drama = 2,
     Romance = 3,
@@ -6,7 +6,7 @@ export enum movieType {
     Horror = 5,
 }
 
-export enum movieAgeGroup {
+export enum MovieAgeGroup {
     G = 1,
     PG = 2,
     PG13 = 3,
@@ -14,11 +14,11 @@ export enum movieAgeGroup {
     NR = 5,
 }
 
-export interface movie {
+export interface Movie {
     id: number;
     name: string;
-    type: movieType;
-    ageRating: movieAgeGroup;
+    type: MovieType;
+    ageRating: MovieAgeGroup;
     realeseDate: Date;
     rating: number;
     editor: string;
