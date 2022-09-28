@@ -31,10 +31,15 @@ TypeScript é uma linguagem de programação de graça e de código aberto desen
 
 ![Typescript](https://www.impacta.com.br/blog/wp-content/uploads/2021/08/typescript.png)
 
+### [Bootstrap 5](https://getbootstrap.com/)
+Bootstrap é uma estrutura CSS gratuita e de código aberto direcionada para o desenvolvimento da Web de primeira linha, móvel e de resposta rápida. Contém modelos de design baseados em HTML, CSS e JavaScript para tipografia, formulários, botões, navegação, e outros componentes de interface.
+
+![Bootstrap 5](https://www.alura.com.br/artigos/assets/bootstrap/bootstrap.png)
+
 ## Desenvolvido por
 
 **[Leonardo Paublo de Oliveira](https://www.linkedin.com/in/leonardo-paublo/)**
 
 **[Lucas Jesus](https://www.linkedin.com/in/lucassjesus/)**    
     
-**[Richard](https://www.linkedin.com/in/leonardo-paublo/)**
+**[Richard de Souza Leite](https://www.linkedin.com/in/richard-leite/)**
